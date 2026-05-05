@@ -14,7 +14,6 @@ AVAILABLE_IMAGE_MODELS = {
     "Imagen 4 (プレビュー)": "imagen-4.0-generate-preview-05-20",
     "Imagen 4 Ultra (実験的)": "imagen-4.0-ultra-generate-exp-05-20",
     "Gemini 2.0 Flash Image (プレビュー)": "gemini-2.0-flash-preview-image-generation",
-    "Gemini 3.1 Flash Image": "gemini-3.1-flash-preview-image-generation",
 }
 
 _session_api_key: contextvars.ContextVar[str] = contextvars.ContextVar("session_api_key", default="")
