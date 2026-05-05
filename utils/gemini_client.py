@@ -6,11 +6,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DEFAULT_TEXT_MODEL = "gemini-2.0-flash"
-DEFAULT_IMAGE_MODEL = "imagen-3.0-generate-001"
+DEFAULT_IMAGE_MODEL = "gemini-2.0-flash-preview-image-generation"
 
 AVAILABLE_IMAGE_MODELS = {
-    "Imagen 3 (標準)": "imagen-3.0-generate-001",
-    "Imagen 3 Fast (高速)": "imagen-3.0-fast-generate-001",
     "Gemini 2.0 Flash Image (プレビュー)": "gemini-2.0-flash-preview-image-generation",
 }
 
